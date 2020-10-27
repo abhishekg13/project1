@@ -3,7 +3,7 @@ import './App.css';
 // import NavBar from './components/NavBar'
 // import MainContent from './components/MainContent'
 // import Footer from './components/Footer'
-// import Time from './components/Time'
+import Time from './components/Time'
 // import Todo from './components/Todo'
 // import Joke from './components/Joke'
 // import jokesData from './jokesData'
@@ -24,7 +24,7 @@ const App = () => {
       {/* <NavBar/>
       <MainContent />
       <Footer /> */}
-      {/* <Time/> */}
+      <Time/>
       {/* <h6>Todo-List</h6> */}
       {/* <div className="todo-list">
         <Todo question="hey how are you?"/> //using props
