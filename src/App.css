@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+body{
+  margin: 0 auto;
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.todo-list{
+  
+  background-color: darkslategray;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #efefef;
+  box-shadow: 
+    0 1px 1px rgba(0,0,0,0.15),
+    0 10px 0 -5px darkgray,
+    0 20px 1px -5px darkgreen,
+    0 20px 1px -9px rgba(0,0,0,0.15);
+  ;
+}
+.todo-items{
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+  padding: 30px 20px 0;
+  width: 70%;
+  border-bottom: 1px solid #cecece;
+  color: aliceblue ;
+}
+input[type=checkbox]{
+  margin-right: 10px;
+}
+.joke-list{
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+  padding: 30px 20px 0;
+  width: 70%;
+  border-bottom: 1px solid #cecece;
+  color: aliceblue ;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
