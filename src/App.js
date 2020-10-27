@@ -25,6 +25,7 @@ const App = () => {
       <MainContent />
       <Footer /> */}
       <Time/>
+      
       {/* <h6>Todo-List</h6> */}
       {/* <div className="todo-list">
         <Todo question="hey how are you?"/> //using props
